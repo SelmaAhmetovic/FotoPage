@@ -1,21 +1,49 @@
 #naslov 
 {
 	text-align: center;
-	background-color: blue;
+	background-color: #80bfff;
 	padding: 10px;
 	height: 10%;
+	color: white;
 	
 }
 
 body {
 	margin: 0;
-	background-color: lighter;
+	background-color: #0066cc;
 	background-image: url("pocetna_slika.jpg");
 	background-repeat: no-repeat;
 }
 .slika11
 {
 	width: 90%;
+}
+#dobrodoslica
+{
+	color: white;
+	font-size: 500%;
+	float: left;
+	width: 60%;
+	padding-left: 5%;
+	
+}
+h3
+{
+	color: white;
+}
+#ocjenjivanje_stranice
+{
+	height: 80%;
+	float: right;
+	width: 20%;
+	padding-right: 5%
+	
+	
+}
+
+.ocjene
+{
+	color:white;
 }
 .slika12
 {
@@ -30,9 +58,7 @@ body {
 	min-width: 100%;
 }
 
-.lista li a.selektovan {
-    background-color: red;
-}
+
 p
 {
 	color: white;
@@ -43,9 +69,16 @@ p
 	width: 90%;
 	float: left;
 }
+.lista li a.selektovan {
+    background-color: #80bfff;
+}
 .lista 
 {
+	margin: 0;
+    padding: 0;
+	overflow: hidden;
 	list-style-type: none;
+	background-color: white;
 }
 .lista li {
     float: left;
@@ -59,10 +92,24 @@ p
 	height: 10%;
 }
 
-#ocjenjivanje_stranice
+
+.red1
 {
-	height: 80%;
+	width: 100%;
+	
 }
+.galerija
+{
+	width: 30%;
+	padding: 1%;
+	float:left;
+	
+}
+.galerijaslika
+{
+	max-width: 100%;
+}
+
 .tekst1
 {
 	float: left;
@@ -71,6 +118,21 @@ p
 .autoportret
 {
 	float: right;
-	width: 40%;
-	height: 100%;
+	max-width:40%;
+	width: 400px;
+	padding-right: 7%;
+	padding-left: 3%;
+	
+}
+.mojaslika
+{
+	width: 90%;
+}
+@media (max-width: 600px) 
+{
+	.lista li a 
+	{
+		font-size: 150%;
+		color: green;
+	}
 }
