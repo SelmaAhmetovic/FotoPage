@@ -163,31 +163,6 @@ p
 {
 	width: 90%;
 }
-@media (max-width: 600px) 
-{
-	.lista li a 
-	{
-		font-size: 150%;
-	}
-}
-@media screen and (min-width:541px) {
-	.meni-button, .meni_btn {
-		height: 0px !important;
-		visibility: hidden;
-		overflow: hidden;
-		display: none;
-	}
-	
-	.meni {
-		
-		display: block !important;
-		overflow: visible !important;
-	}
-	.lista li
-	{
-		float: left;
-	}
-}
 
 
 .val_error
@@ -263,7 +238,7 @@ li.dropdown {
 }
 
 .dropdown-content {
-	
+	display:none;
     position: absolute;
     background-color: #f9f9f9;
     min-width: 160px;
@@ -277,14 +252,53 @@ li.dropdown {
     display: block;
     text-align: left;
 }
+.dropdown-content a:hover {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: inline;
+    text-align: left;
+}
 
-.dropdown-content a:hover 
-{
-	display: initial !important;
-	background-color : #80bfff;
-	text-decoration:none;
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #80bfff;
 }
 .show
 {
 	display:block;
+}
+
+@media (max-width: 600px) 
+{
+	.lista li a 
+	{
+		font-size: 150%;
+	}
+}
+@media screen and (min-width:541px) {
+	.meni-button, .meni_btn {
+		height: 0px !important;
+		visibility: hidden;
+		overflow: hidden;
+		display: inline-block;
+		float:left;
+	}
+	
+	.meni {
+		
+		display: block !important;
+		overflow: visible !important;
+		display: inline-block;
+		float:left;
+	}
+	.lista li
+	{
+		float: left;
+		display: inline-block;
+		
+	}
 }
