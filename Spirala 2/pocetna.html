@@ -27,17 +27,17 @@ Your browser does not support the audio element.
 <script src = "dropdown_meni.js"></script>
 <div id="meni">
 	<ul class="lista">
-		<li> <a href="Pocetna.html" class="selektovan">Početna</a></li>
-		<li> <a href="O_nama.html">O nama</a></li>
-		<li> <a href="Usluge.html">Usluge</a></li>
+		<li> <a href="Pocetna.html" id="prva" class="selektovan" onclick = "ucitaj('pocetna.html', 'prva'); return false;">Početna</a></li>
+		<li> <a href="O_nama.html" id="druga" onclick = "ucitaj('o_nama.html', 'druga'); return false;">O nama</a></li>
+		<li> <a href="Usluge.html" id="treca" onclick = "ucitaj('usluge.html', 'treca'); return false;">Usluge</a></li>
 		<li class="dropdown"> 		
 		<a href="javascript:void(0)" class="dropbtn" onclick=myFunction" >Galerija </a>
 	<div id="myDropdown" class="dropdown-content">
-	<a href="galerija_photoshooting.html">Photoshooting</a>
-	<a href="galerija_vjencanje.html">Vjencanje</a>
+	<a href="galerija_photoshooting.html" id="peta" onclick = "ucitaj('galerija_photoshooting.html', 'peta'); return false;">Photoshooting</a>
+	<a href="galerija_vjencanje.html" id="sesta" onclick = "ucitaj('galerija_vjencanje.html', 'sesta'); return false;">Vjencanje</a>
 	</div>
 	</li>
-	<li> <a href="Kontakt.html" >Kontakt</a></li>
+	<li> <a href="Kontakt.html" id="cetvrta" onclick = "ucitaj('kontakt.html', 'cetvrta'); return false;">Kontakt</a></li>
 	</ul>
 </div>
 
