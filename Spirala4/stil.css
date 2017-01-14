@@ -1,0 +1,352 @@
+#naslov 
+{
+	text-align: center;
+	background-color: #80bfff;
+	padding: 10px;
+	height: 10%;
+	color: white;
+	
+}
+
+body {
+	margin: 0;
+	background-color: #0066cc;
+	background-image: url("pocetna_slika.jpg");
+	background-repeat: no-repeat;
+	padding : 0;
+	overflow-y: scroll;
+	font-family:Arial;
+	font-size: 18px;
+}
+.slika11
+{
+	width: 90%;
+}
+#dobrodoslica
+{
+	color: white;
+	font-size: 500%;
+	float: left;
+	width: 60%;
+	padding-left: 5%;
+	
+}
+h3
+{
+	color: white;
+}
+h2
+{
+	color: white;
+}
+h4
+{
+	color: white;
+}
+#ocjenjivanje_stranice
+{
+	height: 80%;
+	float: right;
+	width: 20%;
+	padding-right: 5%
+	
+	
+}
+
+.ocjene
+{
+	color:white;
+}
+.slika12
+{
+	width: 90%;
+}
+.slika13
+{
+	width: 90%;
+}
+.container {
+	width: 800px;
+	min-width: 100%;
+}
+
+
+p
+{
+	color: white;
+}
+#slika1
+{
+	height: 95%;
+	width: 90%;
+	float: left;
+}
+
+#meni
+{
+	transition: height 0.3s linear 0s;
+	overflow: hidden;
+	height: 10px;
+	min-width: 100%;
+	height: 10%;
+	text-decoration:none;
+}
+#meni ul li: hover ul
+{
+	display: block;
+	text-decoration:none;
+}
+
+#meni ul ul{
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+	
+	
+	display: none;
+	text-decoration:none;
+	position:absolute;
+	background-color: white;
+	border : 5px solid;
+	border-top: 0;
+	
+	
+}
+#meni ul ul li a, visited
+{
+	color: #ccc;
+	text-decoration:none;
+	
+}
+.registration_form td
+{
+	color:white;
+}	
+#dropmenni li a
+{
+	color: black;
+	text-decoration:none;
+}
+.registration_form ul
+{
+float:left;
+text-decoration:none;
+background-color: none;	
+	
+}
+.registration_form ul li
+{
+	float:left;
+	text-decoration:none;
+	background-color: none;	
+	
+}
+.registration_form ul li label
+{
+	float:left;
+	text-decoration:none;
+	background-color: none;	
+	
+}
+.red2
+{
+	width: 100%;
+	
+}
+.red1
+{
+	width: 100%;
+	
+}
+.red3
+{
+	width: 100%;
+}
+.galerija
+{
+	width: 30%;
+	padding: 1%;
+	float:left;
+	
+}
+.galerijaslika
+{
+	max-width: 100%;
+}
+
+.tekst1
+{
+	float: left;
+	width: 50%;
+}
+.autoportret
+{
+	float: right;
+	max-width:40%;
+	width: 400px;
+	padding-right: 7%;
+	padding-left: 3%;
+	
+}
+.mojaslika
+{
+	width: 90%;
+}
+
+
+.val_error
+{
+	color: white;
+	font-style: bold;
+}
+
+.lista 
+{
+	margin: 0;
+    padding: 0;
+	overflow: hidden;
+	list-style-type: none;
+	background-color: white;
+	text-decoration:none;
+}
+.lista ul li a
+{
+	color: #80bfff;
+	text-decoration:none;
+}
+.lista li a.selektovan {
+    background-color: #80bfff;
+	text-decoration:none;
+}
+
+.lista ul li:hover
+{
+	background-color : #80bfff;
+	text-decoration:none;
+}
+.lista ul li a, visited
+{
+	display: block;
+	padding: 15px;
+	text-decoration:none;
+}
+.lista li {
+    text-decoration:none;
+	border-right: 2px solid #bbb;
+	background-color: white;
+	padding: 10px;
+}
+
+
+#meni ul li {
+    display: inline;
+}
+#meni li ul {
+    display: none;  
+}
+#meni ul li:hover ul {
+    display: block;
+    position: absolute;
+}
+#meni ul ul li {
+    display: block; 
+}
+
+
+
+#meni ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+
+#meni li {
+    float: left;
+}
+
+#meni li a, .dropbtn {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: #80bfff;
+	float:none;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+	display:none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.dropdown-content a:hover {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: inline;
+    text-align: left;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #80bfff;
+}
+.show
+{
+	display:block;
+}
+
+@media (max-width: 600px) 
+{
+	.lista li a 
+	{
+		font-size: 150%;
+	}
+}
+@media screen and (min-width:541px) {
+	.meni-button, .meni_btn {
+		height: 0px !important;
+		visibility: hidden;
+		overflow: hidden;
+		display: inline-block;
+		float:left;
+	}
+	
+	.meni {
+		
+		display: block !important;
+		overflow: visible !important;
+		display: inline-block;
+		float:left;
+	}
+	.lista li
+	{
+		float: left;
+		display: inline-block;
+		
+	}
+}
