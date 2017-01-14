@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jan 14, 2017 at 06:14 PM
+-- Generation Time: Jan 14, 2017 at 09:51 PM
 -- Server version: 5.7.14
 -- PHP Version: 5.6.25
 
@@ -37,7 +37,10 @@ CREATE TABLE `login` (
 
 INSERT INTO `login` (`username`, `password`) VALUES
 ('admin', 'admin123'),
-('novi', 'novi123');
+('novi', 'novi123'),
+('zeljkojuric', 'zeljko123'),
+('harissupic', 'haris123'),
+('amina', 'admina123');
 
 -- --------------------------------------------------------
 
@@ -57,7 +60,9 @@ CREATE TABLE `poruka_adminu` (
 
 INSERT INTO `poruka_adminu` (`username`, `email`, `poruka`) VALUES
 ('admin', 'email@gmail.com', 'prva poruka od admina adminu'),
-('novi', 'novi@gmail.com', 'poruka od novog za admina');
+('novi', 'novi@gmail.com', 'poruka od novog za admina'),
+('zeljkojuric', 'zeljko@gmail.com', 'poruka od zeljka za admina'),
+('harissupic', 'haris@gmail.com', 'poruka od harisa supica za admina');
 
 -- --------------------------------------------------------
 
@@ -80,6 +85,8 @@ CREATE TABLE `registracija` (
 
 INSERT INTO `registracija` (`username`, `ime`, `prezime`, `email`, `datum_rodjenja`, `password`) VALUES
 ('admin', 'Selma', 'Ahmetović', 'selmaahmetovic26@gmail.com', '26/03/1995', 'admin123'),
+('amina', 'Amina', 'Mahmutovic', 'amina@gmail.com', '26/01/1995', 'amina123'),
+('harissupic', 'Haris', 'Supic', 'haris@gmail.com', '1972-06-20', 'haris123'),
 ('novi', 'novi_ime', 'novi_prezime', 'novi@gmail.com', '01/01/2017', 'novi123'),
 ('zeljkojuric', 'Zeljko', 'Juric', 'zeljko_juric@gmail.com', '1972-06-20', 'zeljko');
 
